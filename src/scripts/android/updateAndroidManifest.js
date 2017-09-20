@@ -18,7 +18,7 @@
     // update manifest
     manifest = updateMultidex(manifest)
     manifest = updateBranchMetaData(manifest, preferences)
-    manifest = updateBranchReferrerTracking(manifest)
+    // manifest = updateBranchReferrerTracking(manifest)
     manifest = updateLaunchOptionToSingleTask(manifest, mainActivityIndex)
     manifest = updateBranchURIScheme(manifest, mainActivityIndex, preferences)
     manifest = updateBranchAppLinks(manifest, mainActivityIndex, preferences)
